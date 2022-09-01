@@ -1,0 +1,83 @@
+{
+  "name": "ᴀsᴜx ᴍᴜsɪᴄ",
+  "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+  "description": "A Fast & Powerful VC Player bot to play songs in Telegram Video Chat written in Python with the help of Pyrogram & PyTg-Calls.",
+  "keywords": ["music", "voicechat", "python", "telegram-bot", "pyrogram", "telegram", "AsuX"],
+  "repository": "https://github.com/KingAbishnoi/AsuXMusic",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ https://my.telegram.org/apps",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʟᴜᴇ ғʀᴏᴍ https://my.telegram.org/apps",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "ᴀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @Botfather",
+      "value": "",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "ᴄʜᴀᴛ ɪᴅ ᴏғ ᴀ ɢʀᴏᴜᴘ ᴡʜᴇʀᴇ ʏᴏᴜ'ʟʟ ɢᴇᴛ ᴛᴏ ᴋɴᴏᴡ ᴛʜᴀᴛ ʏᴏᴜʀ ʙᴏᴛ ɢᴏᴛ sᴛᴀʀᴛᴇᴅ.",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "ᴀ ᴍᴏɴɢᴏᴅʙ ᴄʟᴏᴜᴅ ᴅᴀᴛᴀʙᴀsᴇ ᴜʀʟ ғʀᴏᴍ cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ ᴏғ ᴛʜᴇ ᴘᴇʀsᴏɴ ᴡʜᴏ ᴡɪʟʟ ᴋɴᴏᴡɴ ᴀs ᴏᴡɴᴇʀ ᴏғ ᴛʜᴇ ʙᴏᴛ.",
+      "required": true,
+      "value": ""
+    },
+    "START_IMG": {
+      "description": "ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴏғ ᴀɴ ɪᴍᴀɢᴇ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ sᴇᴛ ᴀs sᴛᴀʀᴛ ᴘɪᴄ ᴏғ ᴛʜᴇ ʙᴏᴛ.",
+      "required": true,
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ ᴏғ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ",
+      "required": true,
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "ᴜsᴇʀ IDs ᴏғ ᴛʜᴇ ᴜsᴇʀs ᴡʜᴏ ᴡɪʟʟ ᴄᴏᴜɴᴛᴇᴅ ᴀs ᴀᴅᴍɪɴ ᴇᴠᴇʀʏᴡʜᴇʀᴇ (ɪғ ᴍᴏʀᴇ ᴛʜᴀɴ ᴏɴᴇ sᴇᴘᴀʀᴀᴛᴇ ᴛʜᴇᴍ ʙʏ sᴘᴀᴄᴇ).",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_CHAT": {
+      "description": "sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ ᴏғ ʏᴏᴜʀ ʙᴏᴛ, ᴍᴜsᴛ sᴛᴀʀᴛ ᴡɪᴛʜ https://t.me/",
+      "required": false,
+      "value": "https://t.me/AbishnoiMF"
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ ᴏғ ʏᴏᴜʀ ʙᴏᴛ, ʏᴏᴜʀ ʟɪɴᴋ ᴍᴜsᴛ sᴛᴀʀᴛ ᴡɪᴛʜ https://t.me/",
+      "required": false,
+      "value": "https://t.me/Abishnoi_bots"
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
