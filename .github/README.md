@@ -1,4 +1,4 @@
-<h2 align="center">
+v<h2 align="center">
     ─────「✨ ᴀsᴜ ✘ ᴍᴜsɪᴄ ✨」─────
 </h2>
 
@@ -68,7 +68,7 @@
 
 : ➻
 
-➥ [𝐀ɴᴏɴʏᴍᴏᴜs] × <a href="http://github.com/AnonymousR1025/Fallen-Musici" alt="AnonymousR1025"> <img src="https://img.shields.io/badge/AnonymousR1025-90302f?logo=github" /></a>  
+➥ [𝐀ɴᴏɴʏᴍᴏᴜs] × <a href="http://github.com/TheFunkyFox/FallenMusici" alt="TheFunkyFox"> <img src="https://img.shields.io/badge/TheFunkyFox-90302f?logo=github" /></a>  
 
 
 - **ᴛʜᴀɴᴋꜱ ᴛᴏ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/TEAM-ABG/AsuXMusic/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ᴀsᴜ ✘ ᴍᴜsɪᴄ 🖤**
